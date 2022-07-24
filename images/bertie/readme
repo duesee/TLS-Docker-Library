@@ -1,0 +1,10 @@
+---------------------------
+Bertie
+- versions: 
+	only "latest" from GitHub
+- client successfully tested: latest version
+- server successfully tested: server not implemented yet
+
+build:      docker build -t bertie-client .
+tls client: docker run -it --rm bertie-client
+
